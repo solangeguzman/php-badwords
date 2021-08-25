@@ -32,7 +32,7 @@ Stampare di nuovo il paragrafo e la sua lunghezza, dopo aver sostituito con tre 
         echo ' caratteri  contiene il seguente testo:  '; 
         // parola chiave *** asterisco
 
-        $testoast = $_GET['world'];
+        $testoast = $_GET['word'];
         $testosentenceast= str_replace ($testoast, '***', $sentence);
        
      ?>

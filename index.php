@@ -34,7 +34,7 @@
          Minus impedit libero vitae atque quibusdam voluptate odio excepturi in porro.";
         echo strlen($sentence);
         // echo 'il testo : {$testo}  è lungo'  strlen($testoLenght) 'caratteri.'; 
-        echo ' sono i caratteri  contiene il seguente testo:  '; 
+        echo ' sono i caratteri che contiene il seguente testo:  '; 
         //---------------------------------
         // parola chiave *** asterisco
         

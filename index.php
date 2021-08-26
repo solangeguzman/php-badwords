@@ -8,18 +8,23 @@
 </head>
 <body>
   
-Esercizio di oggi: PHP Badwords
-nome repo: php-badwords
-Descrizione:
-Creare una variabile con un paragrafo di testo a vostra scelta.
-Stampare a schermo il paragrafo e la sua lunghezza.
-Una parola da censurare viene passata dall’utente tramite parametro GET.
-Stampare di nuovo il paragrafo e la sua lunghezza, dopo aver sostituito con tre asterischi (***) tutte le occorrenze della parola da censurare.
 
 
     <main>
- 
+
      <?php
+        
+        #Esercizio di oggi: PHP Badwords 
+        #nome repo: php-badwords
+        #Descrizione:
+        #Creare una variabile con un paragrafo di testo a vostra scelta.
+        #Stampare a schermo il paragrafo e la sua lunghezza.
+        #Una parola da censurare viene passata dall’utente tramite parametro GET.
+        #Stampare di nuovo il paragrafo e la sua lunghezza, dopo aver sostituito con tre asterischi (***) tutte le occorrenze della parola da censurare.
+
+
+
+
         # echo "Ciao a tutti";
         #.
         #.
@@ -29,14 +34,17 @@ Stampare di nuovo il paragrafo e la sua lunghezza, dopo aver sostituito con tre 
          Minus impedit libero vitae atque quibusdam voluptate odio excepturi in porro.";
         echo strlen($sentence);
         // echo 'il testo : {$testo}  è lungo'  strlen($testoLenght) 'caratteri.'; 
-        echo ' caratteri  contiene il seguente testo:  '; 
+        echo ' sono i caratteri  contiene il seguente testo:  '; 
+        //---------------------------------
         // parola chiave *** asterisco
-
+        
         $testoast = $_GET['word'];
         $testosentenceast= str_replace ($testoast, '***', $sentence);
-       
+        
      ?>
+     <hr>
        <p><?php  echo $testosentenceast?></p>
+     <hr>
     </main>
 
 </body>
